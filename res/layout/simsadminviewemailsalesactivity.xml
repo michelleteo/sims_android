@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="fill_parent"
+    		  android:baselineAligned="false"
+    		  android:orientation="horizontal" >
+    
+   	<RelativeLayout android:id="@+id/rl_leftpanel" 
+        			android:layout_width="0dp"
+    				android:layout_height="match_parent"
+    				android:layout_weight="1" >
+
+      	<Spinner android:id="@+id/sp_selyear"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+
+      	<Spinner android:id="@+id/sp_selmth"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/sp_selyear"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+      	
+      	<Spinner android:id="@+id/sp_selday"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/sp_selmth"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+      	
+      	<Button android:id="@+id/btn_viewsales"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/sp_selday"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_viewsales_text"
+     	 	  	android:textSize="20sp" />
+      	
+      	<Button android:id="@+id/btn_emailsalesrpt"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/btn_viewsales"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_emailsalesrpt_text"
+     	 	  	android:textSize="20sp" />
+      	
+      	<Button android:id="@+id/btn_backtomain"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_alignParentBottom="true"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_backtomain_text"
+     	 	  	android:textSize="20sp" />
+    
+    </RelativeLayout>
+
+    <View android:layout_width="1dp"
+    	  android:layout_height="fill_parent"
+    	  android:background="@android:color/black"/>
+	
+	<RelativeLayout android:id="@+id/rl_rightpanel" 
+        			android:layout_width="0dp"
+    				android:layout_height="match_parent"
+    				android:layout_weight="2" >
+        
+    </RelativeLayout>
+    
+</LinearLayout>

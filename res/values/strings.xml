@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple POS</string>
+
+    <!-- simpleposloginactivity.xml -->
+    <string name ="tv_username_text">Username : </string>
+    <string name ="et_username_hint">Enter Username</string>
+    <string name ="tv_password_text">Password : </string>
+    <string name ="et_password_hint">Enter Password</string>
+    <string name ="btn_login_text">Login</string>
+    <string name ="btn_clearall_text">Clear All</string>
+    
+    <!-- simsadminmainactivity.xml -->
+    <string name ="btn_1x1_text">ADD/DELETE\nITEMS</string>
+    <string name ="btn_1x2_text">VIEW ITEMS</string>
+    <string name ="btn_1x3_text">VIEW/EMAIL\nSALES</string>
+    <string name ="btn_2x1_text">MANAGE USERS</string>
+    <string name ="btn_2x2_text">ADD STOCK</string>
+    <string name ="btn_2x3_text">VIEW/EMAIL\nSTOCK</string>
+    <string name ="btn_3x1_text">ADD PAYPAL ID</string>
+    <string name ="btn_4x4_text">ADMIN LOGOUT</string>
+    
+    <!-- simsadminadddeleteitemactivity.xml -->
+    <string name ="et_addcatname_hint">Add Category Name</string>
+    <string name ="btn_addcat_text">ADD CATEGORY</string>
+    <string name ="et_additemname_hint">Add Item Name</string>
+    <string name ="et_addskunum_hint">Add SKU Number</string>
+    <string name ="btn_additem_text">ADD ITEM</string>
+    <string name ="et_chgeprice_hint">Change Unit Price</string>
+    <string name ="et_chgeimg_hint">Change Item Image</string>
+    <string name ="btn_chgepriceimg_text">CHANGE PRICE/\nIMAGE</string>
+    <string name ="btn_delcat_text">DELETE CATEGORY</string>
+    <string name ="btn_delitem_text">DELETE ITEM</string>
+    <string name ="btn_backtomain_text">BACK TO MAIN</string>
+    
+    <!-- simsadminviewitemactivity.xml -->
+    <string name ="btn_viewitem_text">VIEW ITEM</string>
+    
+    <!-- simsadminviewemailsalesactivity.xml -->
+    <string name ="btn_viewsales_text">VIEW SALES</string>
+    <string name ="btn_emailsalesrpt_text">EMAIL SALES\nREPORT</string>
+    
+    <!-- simsadminmanageuseractivity.xml -->
+    <string name ="et_enterusername_hint">Enter Username</string>
+    <string name ="btn_adduser_text">ADD USER</string>
+    <string name ="btn_deluser_text">DELETE USER</string>
+    <string name ="et_enterpwd_hint">Enter Password</string>
+    <string name ="et_reenterpwd_hint">Re-Enter Password</string>
+    <string name ="btn_setpwd_text">SET PASSWORD</string>
+    <string name ="et_enternewpwd_hint">Enter New Password</string>
+    <string name ="et_reenternewpwd_hint">Re-Enter New Password</string>
+    <string name ="btn_resetpwd_text">RESET PASSWORD</string>
+    
+    <!-- simsadminaddstockactivity.xml -->
+    <string name ="et_stockquantity_hint">Stock Quantity</string>
+    <string name ="btn_addstock_text">ADD STOCK</string>
+    <string name ="et_stockquantity_hint1">Stock Quantity</string>
+    <string name ="btn_delstock_text">DELETE STOCK</string>
+    
+    <!-- simsadminviewemailstockactivity.xml -->
+    <string name ="btn_viewstocks_text">VIEW STOCKS</string>
+    <string name ="btn_emailstockstat_text">EMAIL STOCK\nSTATUS</string>
+    
+    <!-- simsadminaddpaypalactivity.xml -->
+    <string name ="et_paypalid_hint">PayPal ID</string>
+    <string name ="btn_submit_text">Submit</string>
+    <!-- <string name ="btn_backtomain_text">BACK TO MAIN</string> -->
+    
+    <!-- simsusermainactivity.xml -->
+    <string name ="tv_itemcategory_text">Item Category</string>
+    <string name ="btn_logout_text">LOGOUT</string>
+    <string name ="btn_back_text">BACK</string>
+    <string name ="btn_clear_text">CLEAR</string>
+    <string name ="btn_cashpayment_text">Payment by\nCASH</string>
+    <string name ="btn_ccpayment_text">Payment by\nCREDIT CARD</string>
+    
+</resources>

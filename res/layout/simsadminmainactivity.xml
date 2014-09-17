@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		     android:id="@+id/tl_adminmain"
+    		 android:layout_width="fill_parent"
+    		 android:layout_height="fill_parent"
+    		 android:stretchColumns="*" >
+    
+    <TableRow android:id="@+id/tr_1"
+        	  android:layout_width="fill_parent"
+        	  android:layout_height="fill_parent"
+        	  android:layout_weight="1"
+        	  android:gravity="center"
+        	  android:padding="5dip" >
+        	  
+        <Button android:id="@+id/btn_1x1"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:typeface="sans"  
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+        
+        <Button android:id="@+id/btn_1x2"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:typeface="sans"  
+ 	       	 	android:text="@string/btn_1x2_text"
+       			android:textSize="20sp" />
+        
+        <Button android:id="@+id/btn_1x3"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:typeface="sans"  
+ 	       	 	android:text="@string/btn_1x3_text"
+       			android:textSize="20sp" />
+        
+         <!-- Not in Use -->
+        <Button android:id="@+id/btn_1x4"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:visibility="invisible"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+        
+    </TableRow>
+    
+    <TableRow android:id="@+id/tr_2"
+        	  android:layout_width="fill_parent"
+        	  android:layout_height="fill_parent"
+        	  android:layout_weight="1"
+        	  android:gravity="center"
+        	  android:padding="5dip" >
+        
+        <Button android:id="@+id/btn_2x1"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:typeface="sans"  
+ 	       	 	android:text="@string/btn_2x1_text"
+       			android:textSize="20sp" />
+        
+        <Button android:id="@+id/btn_2x2"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:typeface="sans"  
+ 	       	 	android:text="@string/btn_2x2_text"
+       			android:textSize="20sp" />
+        
+        <Button android:id="@+id/btn_2x3"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:typeface="sans"  
+ 	       	 	android:text="@string/btn_2x3_text"
+       			android:textSize="20sp" />
+        
+         <!-- Not in Use -->
+        <Button android:id="@+id/btn_2x4"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:visibility="invisible"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+        
+    </TableRow>
+    
+    <TableRow android:id="@+id/tr_3"
+        	  android:layout_width="fill_parent"
+        	  android:layout_height="fill_parent"
+        	  android:layout_weight="1"
+        	  android:gravity="center"
+        	  android:padding="5dip" >
+        
+        <Button android:id="@+id/btn_3x1"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_3x1_text"
+       			android:textSize="20sp" />
+    
+        <!-- Not in Use -->
+        <Button android:id="@+id/btn_3x2"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:visibility="invisible"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+        
+        <!-- Not in Use -->
+        <Button android:id="@+id/btn_3x3"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:visibility="invisible"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+        
+        <!-- Not in Use -->
+        <Button android:id="@+id/btn_3x4"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:visibility="invisible"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+        
+    </TableRow>
+    
+    <TableRow android:id="@+id/tr_4"
+        	  android:layout_width="fill_parent"
+        	  android:layout_height="fill_parent"
+        	  android:layout_weight="1"
+        	  android:gravity="center"
+        	  android:padding="5dip" >
+        
+        <!-- Not in Use -->
+        <Button android:id="@+id/btn_4x1"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:visibility="invisible"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+    	 
+    	 
+        <!-- Not in Use -->
+        <Button android:id="@+id/btn_4x2"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:visibility="invisible"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+        
+        <!-- Not in Use -->
+        <Button android:id="@+id/btn_4x3"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:visibility="invisible"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_1x1_text"
+       			android:textSize="20sp" />
+        
+        <Button android:id="@+id/btn_4x4"
+ 	        	android:layout_width="fill_parent"
+ 	        	android:layout_height="fill_parent"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_4x4_text"
+       			android:textSize="20sp" />
+        
+    </TableRow>
+    
+</TableLayout>

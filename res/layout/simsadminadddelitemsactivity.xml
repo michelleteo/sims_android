@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="fill_parent"
+    		  android:baselineAligned="false"
+    		  android:orientation="horizontal" >
+    
+    <RelativeLayout android:id="@+id/rl_leftpanel" 
+        			android:layout_width="0dp"
+    				android:layout_height="match_parent"
+    				android:layout_weight="1" >
+    				
+    	<EditText android:id="@+id/et_addcatname"
+   	 	    	  android:hint="@string/et_addcatname_hint"
+       		  	  android:layout_width="fill_parent"
+       	  	  	  android:layout_height="wrap_content"
+      		  	  android:typeface="sans"  
+        	  	  android:textSize="18sp"
+       		  	  android:inputType="text"
+      	 	 	  android:ems="10">
+      		<requestFocus />
+      	</EditText>
+      	
+      	<Button android:id="@+id/btn_addcat"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/et_addcatname"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_addcat_text"
+     	 	  	android:textSize="20sp" />
+      	
+      	<Spinner android:id="@+id/sp_selcat"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+ 	   		     android:layout_below="@+id/btn_addcat"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+      	
+      	<EditText android:id="@+id/et_additemname"
+   	 	    	  android:hint="@string/et_additemname_hint"
+       		  	  android:layout_width="fill_parent"
+       	  	  	  android:layout_height="wrap_content"
+ 	   		      android:layout_below="@+id/sp_selcat"
+      		  	  android:typeface="sans"  
+        	  	  android:textSize="18sp"
+       		  	  android:inputType="text"
+      	 	 	  android:ems="10">
+      	</EditText>
+      	
+      	<EditText android:id="@+id/et_addskunum"
+   	 	    	  android:hint="@string/et_addskunum_hint"
+       		  	  android:layout_width="fill_parent"
+       	  	  	  android:layout_height="wrap_content"
+ 	   		      android:layout_below="@+id/et_additemname"
+      		  	  android:typeface="sans"  
+        	  	  android:textSize="18sp"
+       		  	  android:inputType="text"
+      	 	 	  android:ems="10">
+      	</EditText>
+      	
+      	<Button android:id="@+id/btn_additem"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/et_addskunum"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_additem_text"
+     	 	  	android:textSize="20sp" />
+    
+    </RelativeLayout>
+    
+    <View android:layout_width="1dp"
+    	  android:layout_height="fill_parent"
+    	  android:background="@android:color/black"/>
+    
+    <RelativeLayout android:id="@+id/rl_midpanel" 
+        			android:layout_width="0dp"
+    				android:layout_height="match_parent"
+    				android:layout_weight="1" >
+      	
+        <Spinner android:id="@+id/sp_selcat1"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+        
+        <Spinner android:id="@+id/sp_selitem"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+ 	   		     android:layout_below="@+id/sp_selcat1"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+        
+        <EditText android:id="@+id/et_chgeprice"
+   	 	    	  android:hint="@string/et_chgeprice_hint"
+       		  	  android:layout_width="fill_parent"
+       	  	  	  android:layout_height="wrap_content"
+ 	   		      android:layout_below="@+id/sp_selitem"
+      		  	  android:typeface="sans"  
+        	  	  android:textSize="18sp"
+       		  	  android:inputType="text"
+      	 	 	  android:ems="10">
+      	</EditText>
+      	
+      	<EditText android:id="@+id/et_chgeimg"
+   	 	    	  android:hint="@string/et_chgeimg_hint"
+       		  	  android:layout_width="fill_parent"
+       	  	  	  android:layout_height="wrap_content"
+ 	   		      android:layout_below="@+id/et_chgeprice"
+      		  	  android:typeface="sans"  
+        	  	  android:textSize="18sp"
+       		  	  android:inputType="text"
+      	 	 	  android:ems="10">
+      	</EditText>
+      	
+      	<Button android:id="@+id/btn_changepriceimg"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/et_chgeimg"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_chgepriceimg_text"
+     	 	  	android:textSize="20sp" />
+        
+    </RelativeLayout>
+    
+    <View android:layout_width="1dp"
+    	  android:layout_height="fill_parent"
+    	  android:background="@android:color/black"/>
+	
+	<RelativeLayout android:id="@+id/rl_rightpanel" 
+        			android:layout_width="0dp"
+    				android:layout_height="match_parent"
+    				android:layout_weight="1" >
+      	
+	    <Spinner android:id="@+id/sp_selcat2"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+	    
+	    <Button android:id="@+id/btn_delcat"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/sp_selcat2"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_delcat_text"
+     	 	  	android:textSize="20sp" />
+	    
+	    <Spinner android:id="@+id/sp_selcat3"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+ 	   		     android:layout_below="@+id/btn_delcat"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+	    
+	    <Spinner android:id="@+id/sp_selitem1"
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+ 	   		     android:layout_below="@+id/sp_selcat3"
+    	    	 android:typeface="sans"  
+        		 android:textSize="18sp" />
+	    
+	    <Button android:id="@+id/btn_delitem"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_below="@+id/sp_selitem1"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_delitem_text"
+     	 	  	android:textSize="20sp" />
+	    
+	    <Button android:id="@+id/btn_backtomain"
+ 	       		android:layout_width="fill_parent"
+ 	   		    android:layout_height="wrap_content"
+ 	   		    android:layout_alignParentBottom="true"
+ 	   		    android:typeface="sans"  
+ 	   	 	    android:text="@string/btn_backtomain_text"
+     	 	  	android:textSize="20sp" />
+	    
+    </RelativeLayout>
+    
+</LinearLayout>

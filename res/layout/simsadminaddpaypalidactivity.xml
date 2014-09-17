@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+    			android:gravity="center" >    
+    
+    	<EditText android:id="@+id/et_paypalid"
+   	 	    	  android:hint="@string/et_paypalid_hint"
+       		  	  android:layout_width="wrap_content"
+       	  	  	  android:layout_height="wrap_content"
+	    		  android:gravity="center"
+	    		  android:orientation="horizontal" 
+      		  	  android:typeface="sans"  
+        	  	  android:textSize="20sp"
+       		  	  android:inputType="text"
+      	 	 	  android:ems="10">
+      		<requestFocus />
+      	</EditText>
+      	
+    	<!--  
+    	<Button android:id="@+id/btn_backtomain"
+ 	        	android:layout_width="400px"
+ 	        	android:layout_height="200px"
+ 	        	android:layout_alignBaseline="rl_addpaypalid"
+ 	        	android:typeface="sans"
+ 	       	 	android:text="@string/btn_backtomain_text"
+       			android:textSize="20sp" />
+      	-->
+      	
+</RelativeLayout>
